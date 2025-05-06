@@ -1,0 +1,14 @@
+# to install all packages in requirements.txt
+pip install -r requirements.txt
+
+# to output all installed package to requirements.txt
+pip freeze > requirements.txt
+
+# to install requests package
+pip install requests
+
+# to create virtual environment called "env"
+python -m venv env
+
+# to check python version
+python --version
