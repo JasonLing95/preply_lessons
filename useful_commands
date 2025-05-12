@@ -12,3 +12,6 @@ python -m venv env
 
 # to check python version
 python --version
+
+# query Google OAuth2 token info (for valid token ONLY)
+curl "https://oauth2.googleapis.com/tokeninfo?access_token=ACCESS_TOKEN"
